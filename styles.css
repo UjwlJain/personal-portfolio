@@ -1,0 +1,341 @@
+body{
+    background-color: rgb(28, 28, 28);
+}
+/* Add your CSS styles here */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 64px;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Add other styles for the navbar as needed */
+
+/* Home Section Styles */
+.home-section {
+    background-color: #1e1e1e; /* Dark mode background color */
+    color: #fff; /* Text color */
+    padding: 50px;
+    text-align: center;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Align elements horizontally */
+    flex-wrap: wrap; /* Allow elements to wrap */
+}
+
+.home-text {
+    max-width: 50%; /* Text takes up 50% of the width */
+    padding-right: 20px; /* Add spacing between text and image */
+    text-align: left; /* Align text to the left */
+}
+
+.home-text h1 {
+    font-size: 2.8rem;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    color: rgb(241, 241, 199);
+}
+
+.home-text h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.home-text h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: rgb(77, 247, 247);
+}
+
+.home-image {
+    max-width: 50%; /* Image takes up 50% of the width */
+}
+
+.home-image img {
+    max-width: 100%; /* Ensure image fits within its container */
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 12px;
+    background-color: #3c0fd0;
+    color: #fff;
+    border: 1.5px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.skills h1{
+    font-size: xxx-large;
+    padding: 10px;
+    color: orange;
+    text-align: center;
+}
+.skills ul li {
+    font-size: x-large;
+    color: aqua;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    list-style: circle;
+}
+.social-media h2{
+    text-align: center;
+    font-size: xx-large;
+    text-transform: uppercase;
+    color: orange;
+    margin: 15px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 15px; /* Adjust spacing between social media icons */
+}
+
+.social-links img {
+    width: 45px; /* Set the width of the social media icons */
+    height: auto;
+}
+
+/* Projects Section Styles */
+.projects-section h2{
+    font-size: xxx-large;
+    padding: 0px;
+    color: orange;
+    text-align: center;
+    margin: 25px;
+}
+.projects-section {
+    padding: 30px;
+    text-align: center;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.project-card {
+    position: relative;
+    overflow: hidden;
+    width: 220px;
+    height: 220px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.22);
+    box-shadow: 0px 5px 15px rgba(241, 235, 235, 0.902);
+}
+
+.project-card img {
+    width: 100%;
+    height: 67%;
+    object-fit: cover;
+}
+
+.project-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(117 46 247);
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.project-info h3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: yellow;
+    margin-bottom: 5px;
+}
+
+.project-info p {
+    font-size: 7px;
+    color: aqua;
+    font-weight: 500;
+}
+
+.demo-link {
+    display: none;
+    color: #01f801;
+    text-decoration: underline;
+}
+
+.project-card:hover .demo-link {
+    display: block;
+}
+.contact-section h2{
+    font-size: xxx-large;
+    margin: 38px;
+    padding: 10px;
+    color: orange;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.contact-section form{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items: center;
+}
+.contact-section form div{
+    margin: 0px;
+    padding: 4px;
+}
+
+input[type="text"],
+    input[type="email"],
+    input[type="text"],
+    textarea {
+        padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid aqua;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 19px;
+    }
+    textarea{
+        height: 145px;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem 1.5rem;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #eae5e5;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(228, 255, 23);
+    text-transform: uppercase;
+    -webkit-text-stroke-color: aliceblue;
+    -webkit-text-stroke-width: 0.2px;
+}
+
+.nav-link:hover{
+    color: #482ff7;
+}
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #787474;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+}
